@@ -1,0 +1,32 @@
+/* Importa uma fonte punk estilosa do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&family=Share+Tech+Mono&display=swap');
+
+/* Fundo e layout principal */
+body {
+  margin: 0;
+  padding: 0;
+  background: url('https://wallpaperaccess.com/full/1540016.jpg') center fixed;
+  color: #f0f0f0;
+  font-family: 'Share Tech Mono', monospace;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: brightness(0.3) contrast(1.2);
+}
+
+form {
+  padding: 15px;
+  background: rgba(35, 72, 102, 0.6);
+}
+
+input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  background: rgba(138, 10, 10, 0.5);
+  color: #00ffea;
+}

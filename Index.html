@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Api de Clima</title>
+    <link rel="stylesheet" href="ApiTempo.css" />
+  </head>
+  <body>
+    <h1>Consulta o Clima</h1>
+    <form id="formulario">
+      <input type="text" id="nome" placeholder="Digite seu nome" />
+      <input type="email" id="email" placeholder="Digite seu email" />
+      <input type ="tel" id="telefone" placeholder="Digite seu telefone" />
+      <input type ="cep" id="cep" placeholder="Digite seu cep" />
+      <input type ="logradouro" id="logradouro" placeholder="Digite seu logradouro" />
+      <input type ="bairro" id="bairro" placeholder="Digite seu bairro" />
+      <input type ="cidade" id="cidade" placeholder="Digite sua cidade" />
+      <input type ="estado" id="estado" placeholder="Digite seu estado" />
+    </form>
+    <button onclick="salvar()">Salvar</button>
+    <button onclick="limpar()">Limpar</button>
+    <button onclick="buscarCidade()">Buscar pela Cidade</button>
+    <button onclick="buscarCEP()">Buscar pelo CEP</button>
+    <div id="loading" style="display: none">Carregando...</div>
+    <p id="temperatura"></p>
+    <p id="descricao"></p>
+    <p id="umidade"></p>
+    <p id="vento"></p>
+    <p id="horario"></p>
+    <script src="ApiTempo.js"></script>
+  </body>
+</html>
